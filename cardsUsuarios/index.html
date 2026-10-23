@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f4f8;
+            margin: 0;
+            padding: 24px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+
+        #cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 16px 20px;
+            width: 240px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+        }
+
+        .card h2 {
+            margin: 0 0 8px;
+            font-size: 18px;
+            color: #1a4d8f;
+        }
+
+        .card p {
+            margin: 4px 0;
+            color: #444;
+            font-size: 14px;
+        }
+
+        #total {
+            text-align: center;
+            margin-top: 24px;
+            font-weight: bold;
+            color: #222;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lista de Usuários</h1>
+    <div id="cards"></div>
+    <p id="total"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
